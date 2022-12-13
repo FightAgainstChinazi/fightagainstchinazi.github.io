@@ -19,7 +19,7 @@ var aliceTiming = {
   iterations: Infinity
 }
 
-document.getElementById("img").animate(
+document.querySelector("img").animate(
   aliceTumbling, 
   aliceTiming
 )
